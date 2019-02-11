@@ -13,7 +13,7 @@
 	<style type="text/css" media="screen">
 
 	.container {
-		margin-top: 50px;
+		margin-top: 100px;
 		margin-bottom: 50px;
 	}
 
@@ -28,7 +28,7 @@
 
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container">
 		<!-- header start -->
 		<header id="header" class="">
 			<h1>Navbar exercise</h1>
@@ -37,15 +37,21 @@
 		<!-- navbar start -->
 		<ul class="nav nav-tabs navbar-default navbar-fixed-top">
 			<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#home" title="">Home<b class="caret"></b>
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#home" title=""><span class="glyphicon glyphicon-home"></span> Home<b class="caret"></b>
 				</a>
 				<ul class="dropdown-menu">
 					<li><a href="#dropdown1">dropdown1</a></li>         
 					<li><a href="#dropdown2">dropdown2</a></li> 
 				</ul>
 			</li>
-			<li><a href="#home" title="">Blog</a></li>
-			<li><a href="#home" title="">Contact</a></li>
+			<li><a href="#blog" title=""><span class="glyphicon glyphicon-book"></span> Blog </a></li>
+			<li><a href="#gitsection"><span class="glyphicon glyphicon-upload"></span> Git & GitHub</a></li>
+			<li><a href="#htmlsection"><span class="glyphicon glyphicon-link"></span> HTML</a></li>
+			<li><a href="#csssection"><span class="glyphicon glyphicon-heart-empty"></span> CSS</a></li>
+			<li><a href="#javascriptsection"><span class="glyphicon glyphicon-console"></span> Javascript</a></li>
+			<li><a href="#jquerysection"><span class="glyphicon glyphicon-road"></span> JQuery</a></li>
+			<li><a href="#bootstrapsection"><span class="glyphicon glyphicon-inbox"></span> Bootstrap</a></li>
+			<li><a href="#home" title=""><span class="glyphicon glyphicon-paperclip"></span> Contact</a></li>
 		</ul>
 		<!-- navbar end -->
 
@@ -63,10 +69,10 @@
 		<ul class="navbar">
 			<li><a href="#gitsection">Git & GitHub</a></li>
 			<li><a href="#htmlsection">HTML</a></li>
-			<li><a href="">CSS</a></li>
-			<li><a href="">Javascript</a></li>
-			<li><a href="">JQuery</a></li>
-			<li><a href="">Bootstrap</a></li>
+			<li><a href="#csssection">CSS</a></li>
+			<li><a href="#javascriptsection">Javascript</a></li>
+			<li><a href="#jquerysection">JQuery</a></li>
+			<li><a href="#bootstrapsection">Bootstrap</a></li>
 		</ul>
 	</aside>
 </div>
@@ -90,7 +96,7 @@
 			<tbody>
 				<tr>
 					<td class="col-md-3">
-						<h1 name="gitsection">Git & GitHub</h1>
+						<a name="gitsection"><h1>Git & GitHub</h1></a>
 						<ul>
 							
 							<li>What is VC, Necessity, What is Git?</li>
@@ -103,7 +109,7 @@
 						</ul>
 					</td>
 					<td class="col-md-3">
-						<h1>CSS</h1>
+						<a name="csssection"><h1>CSS</h1></a>
 						<ul>
 							
 							<li>Creating a stylesheet.</li>
@@ -117,7 +123,7 @@
 						</ul>
 					</td>
 					<td class="col-md-3">
-						<h1>Javascript</h1>
+						<a name="javascriptsection"><h1>Javascript</h1></a>
 						<ul>
 							
 							<li>JavaScript vs CSS3</li>
@@ -138,8 +144,8 @@
 						</ul>
 					</td>
 					<td class="col-md-3">
+						<a name="jquerysection"><h1>jQuery</h1></a>
 						<ul>
-							<h1>jQuery</h1>
 							<li>Intro</li>
 							<li>Selectors</li>
 							<li>Animation</li>
@@ -170,7 +176,7 @@
 					<td class="col-md-3"></td>
 					<td class="col-md-3"></td>
 					<td class="col-md-3">
-						<h2>Bootstrap</h2>
+						<a name="bootstrapsection"><h2>Bootstrap</h2></a>
 						<ul>
 							<li>Introduction to the Bootstrap</li>
 							<li>Downloading Bootstrap</li>
