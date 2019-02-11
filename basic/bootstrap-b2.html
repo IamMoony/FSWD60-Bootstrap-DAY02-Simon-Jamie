@@ -4,6 +4,18 @@
     <title>My First 5 Weeks at CodeFactory</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+            crossorigin="anonymous"></script>
+  
+    <style type="text/css" media="screen">
+
+    .container {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  </style>
+
   </head>
   <body>
     <div class="container">
@@ -11,7 +23,14 @@
         <h1>Navbar exercise</h1>
       </header><!-- /header -->
         <ul class="nav nav-tabs navbar-default navbar-fixed-top">
-          <li class="dropdown"><a href="#home" title="">Home</a></li>
+          <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#home" title="">Home<b class="caret"></b>
+              </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#dropdown1">dropdown1</a></li>         
+                    <li><a href="#dropdown2">dropdown2</a></li> 
+                  </ul>
+          </li>
           <li><a href="#home" title="">Blog</a></li>
           <li><a href="#home" title="">Contact</a></li>
         </ul>
