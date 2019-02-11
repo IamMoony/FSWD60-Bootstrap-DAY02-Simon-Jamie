@@ -1,0 +1,8 @@
+div {
+	border: 1px solid red;
+}
+
+.content-style{
+	display: flex;
+	justify-content: space-evenly;
+}
